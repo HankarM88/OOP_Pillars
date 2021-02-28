@@ -44,7 +44,7 @@ if __name__ == '__main__':
     print(f'A + B :{repr(S)}') # (8.00, 10.00) Same as A.__add__(B)
     print(f'3*B : {B * 3}')  # (9.00, 12.00) Same as A.__mul__(B)
     print(f'B : {B}')      # (9.00, 12.00) Changed
-    #let's create for points in the plan nd check if they shape a Parallelogram
+    #let's create four points in the plan nd check if they shape a Parallelogram
     A = Point(5,4)
     B = Point(2, 2)
     C = Point(-1,4)
